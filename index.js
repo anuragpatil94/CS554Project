@@ -25,6 +25,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 authRoutes(app);
+console.log('TEST');
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
